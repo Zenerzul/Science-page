@@ -1,0 +1,108 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.col-fixing {
+  width: auto;
+  background-color: #e9ecef;
+  background-size: cover;
+}
+section {
+  justify-self: center;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+/* .first-section {
+  background-color: #e9ecef;
+  width: max-content; */
+/* } */
+.jumbotron-fluid {
+  padding-top: 6rem;
+  padding-bottom: 50px;
+}
+.jumbotron-fluid button {
+  margin-top: 10px;
+}
+h1 {
+  font-size: 72px;
+  font-weight: 200;
+}
+.portfolio-card {
+  float: left;
+  clear: right;
+}
+.card {
+  margin-top: 2rem;
+  max-width: auto;
+}
+.card h4 {
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+.card button {
+  margin-top: 1rem;
+}
+container {
+  width: 100%;
+}
+table {
+  margin-top: 2rem;
+  overflow: auto;
+  line-height: 30px;
+}
+th,
+td {
+  border: 1px lightgrey solid;
+}
+
+.third-section {
+  padding-bottom: 1.5rem;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  max-height: 4rem;
+  line-height: 18px; /* Vertically center the text there */
+  background-color: lightgray;
+}
+footer p {
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  float: left;
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    padding-left: 39px;
+    padding-right: auto;
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 567px) {
+  section {
+    padding-left: 31px;
+    padding-right: 15px;
+  }
+  .jumbotron-fluid {
+    padding-top: 4rem;
+  }
+  .jumbotron-fluid h1 {
+    font-size: 48px;
+  }
+  .final-section {
+    padding-right: 90px;
+  }
+}
